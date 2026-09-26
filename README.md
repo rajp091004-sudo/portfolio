@@ -1,1 +1,1 @@
-# portfolio
+# A portfolio detailing previous work that I have done whether it was in a course or personal. 
