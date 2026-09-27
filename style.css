@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 /* Main colors */
 
 body {
@@ -149,4 +152,39 @@ body {
     text-align: center;
     font-size: 36px;
     margin-bottom: 50px;
+}
+#skills p{
+    text-align:center;
+}
+.skills-section {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 50px;
+
+    margin-top: 40px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 100px;
+    height: 100px;
+
+    object-fit: contain;
+}
+
+.image-item p {
+    margin-top: 12px;
+
+    font-size: 18px;
+    font-weight: 600;
 }
